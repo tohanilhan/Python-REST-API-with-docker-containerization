@@ -30,7 +30,8 @@ This is a dockerized REST API that has authorization and authentication with Mon
 !!But be careful, token will expire some time later and you have to relogin and replace the old token with the new one!!
 
 
-		    ******* Instructions on routes *******
+	
+#Instructions on routes 
 
 You have to use form-data on postman to test the application.
 Below the request section, click Body and chose form-data.
@@ -48,7 +49,7 @@ User Credentials for testing the api
 Email:test2@gmail.com	Passsword:tester2"					
 Email:test@gmail.com		Password:tester1
 
-Routes for the api
+## Routes for the api
 
 * http://localhost:5000/login ---> For Login to the system (use ['POST'] request)
 * http://localhost:5000/users ---> To see all users (use ['GET'] request)
