@@ -35,12 +35,16 @@ You have to use form-data on postman to test the application.
 Below the request section, click Body and chose form-data.
 Please use form-data exactly like how its shown below
 
-For Users	|	For Products
-		|
-Name:		|	Product Name:
-Surname:	|	Price:
-Email:		|	Quantity:
-Password:	|
+1. For Users			
+	- Name:			
+ 		- Surname:		
+ 			- Email:			
+ 				- Password:
+ 
+2. For Products
+	- Product Name:
+ 		- Price:
+ 			- Quantity:
 
 ### User Credentials for testing the api
 
