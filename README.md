@@ -22,9 +22,7 @@ This is a dockerized REST API that has authorization and authentication with Mon
 
 10.You can use Postman to test your application. Click My Workspace and on the right hand side of the Import button, there is a + sign. You can create a new request by clicking this sign.
 
-11.When you testing, First you have to go to login page and use one of the users credentials to log in(By using form data). Then the application creates a token for you. 
-   You have to use this token to reach other endpoints or you cannot see anyone. To reach restricted sections, you need to copy and paste the access token you got to Bearer token auth type in the postman and that is all. 
-   You can access the restricted sections. 
+11.When you testing, First you have to go to login page and use one of the users credentials to log in(By using form data). Then the application creates a token for you. You have to use this token to reach other endpoints or you cannot see anyone. To reach restricted sections, you need to copy and paste the access token you got to Bearer token auth type in the postman and that is all. You can access the restricted sections. 
 
 					
 !!But be careful, token will expire some time later and you have to relogin and replace the old token with the new one!!
@@ -44,21 +42,21 @@ Surname:	|	Price:
 Email:		|	Quantity:
 Password:	|
 
-User Credentials for testing the api
+### User Credentials for testing the api
 
-Email:test2@gmail.com	Passsword:tester2"					
-Email:test@gmail.com		Password:tester1
+- Email:test2@gmail.com	Passsword:tester2					
+- Email:test@gmail.com Password:tester1
 
 ## Routes for the api
 
-* http://localhost:5000/login ---> For Login to the system (use ['POST'] request)
-* http://localhost:5000/users ---> To see all users (use ['GET'] request)
-* http://localhost:5000/users<_id> ---> To see specific user (use ['GET'] request)
-* http://localhost:5000/register ---> To register a new user (use ['POST'] request)
-* http://localhost:5000/updateuser<_id> ---> To update a specific user (use ['PUT'] request)
-* http://localhost:5000/deleteuser/<_id> ---> To delete a specific user (use ['DELETE'] request)
-* http://localhost:5000/products ---> To see all products (use ['GET'] request)
-* http://localhost:5000/products<_id> ---> To see a specific product (use ['GET'] request)
-* http://localhost:5000/addproduct ---> To To add a new product (use ['POST'] request)
-* http://localhost:5000/updateproduct/<id> ---> To update a specific product (use ['PUT'] request)
-* http://localhost:5000/deleteproduct/<id ---> To delete a specific product (use ['DELETE'] request)
+- http://localhost:5000/login ---> For Login to the system (use ['POST'] request)
+- http://localhost:5000/users ---> To see all users (use ['GET'] request)
+- http://localhost:5000/users<_id> ---> To see specific user (use ['GET'] request)
+- http://localhost:5000/register ---> To register a new user (use ['POST'] request)
+- http://localhost:5000/updateuser<_id> ---> To update a specific user (use ['PUT'] request)
+- http://localhost:5000/deleteuser/<_id> ---> To delete a specific user (use ['DELETE'] request)
+- http://localhost:5000/products ---> To see all products (use ['GET'] request)
+- http://localhost:5000/products<_id> ---> To see a specific product (use ['GET'] request)
+- http://localhost:5000/addproduct ---> To To add a new product (use ['POST'] request)
+- http://localhost:5000/updateproduct/<id> ---> To update a specific product (use ['PUT'] request)
+- http://localhost:5000/deleteproduct/<id ---> To delete a specific product (use ['DELETE'] request)
