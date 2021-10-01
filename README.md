@@ -25,7 +25,7 @@ This is a dockerized REST API that has authorization and authentication with Mon
 11. When you testing, First you have to go to login page and use one of the users credentials to log in(By using form data). Then the application creates a token for you. You have to use this token to reach other endpoints or you cannot see anyone. To reach restricted sections, you need to copy and paste the access token you got to Bearer token auth type in the postman and that is all. You can access the restricted sections. 
 
 					
-!!But be careful, token will expire some time later and you have to relogin and replace the old token with the new one!!
+**But be careful, token will expire some time later and you have to relogin and replace the old token with the new one**
 
 
 	
