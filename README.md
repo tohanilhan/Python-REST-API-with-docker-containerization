@@ -50,16 +50,16 @@ Email:test@gmail.com		Password:tester1
 
 Routes for the api
 
-**http://localhost:5000/login               ---> For Login to the system 		use ['POST'] request
-**http://localhost:5000/users               ---> To see all users 			use ['GET'] request
-**http://localhost:5000/users<_id>          ---> To see specific user 			use ['GET'] request
-**http://localhost:5000/register            ---> To register a new user 		use ['POST'] request
-**http://localhost:5000/updateuser<_id>     ---> To update a specific user 		use ['PUT'] request
-**http://localhost:5000/deleteuser/<_id>    ---> To delete a specific user 		use ['DELETE'] request
+*http://localhost:5000/login               ---> For Login to the system 		use ['POST'] request
+*http://localhost:5000/users               ---> To see all users 			use ['GET'] request
+*http://localhost:5000/users<_id>          ---> To see specific user 			use ['GET'] request
+*http://localhost:5000/register            ---> To register a new user 		use ['POST'] request
+*http://localhost:5000/updateuser<_id>     ---> To update a specific user 		use ['PUT'] request
+*http://localhost:5000/deleteuser/<_id>    ---> To delete a specific user 		use ['DELETE'] request
 
 
-**http://localhost:5000/products            ---> To see all products 			use ['GET'] request
-**http://localhost:5000/products<_id>       ---> To see a specific product 		use ['GET'] request
-**http://localhost:5000/addproduct          ---> To To add a new product 		use ['POST'] request
-**http://localhost:5000/updateproduct/<id>  ---> To update a specific product 		use ['PUT'] request
-**http://localhost:5000/deleteproduct/<id   ---> To delete a specific product 		use ['DELETE'] request
+*http://localhost:5000/products            ---> To see all products 			use ['GET'] request
+*http://localhost:5000/products<_id>       ---> To see a specific product 		use ['GET'] request
+*http://localhost:5000/addproduct          ---> To To add a new product 		use ['POST'] request
+*http://localhost:5000/updateproduct/<id>  ---> To update a specific product 		use ['PUT'] request
+*http://localhost:5000/deleteproduct/<id   ---> To delete a specific product 		use ['DELETE'] request
