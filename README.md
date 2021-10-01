@@ -37,14 +37,14 @@ Please use form-data exactly like how its shown below
 
 1. For Users			
 	- Name:			
- 		- Surname:		
- 			- Email:			
- 				- Password:
+ 	- Surname:		
+ 	- Email:			
+ 	- Password:
  
 2. For Products
 	- Product Name:
- 		- Price:
- 			- Quantity:
+ 	- Price:
+ 	- Quantity:
 
 ### User Credentials for testing the api
 
